@@ -3,7 +3,7 @@ package com.debopam.circuitbreaker.strategy;
 /**
  * Defines a strategy to decide whether the circuit breaker should trip.
  */
-public sealed interface FailureDetectionStrategy permits SimpleFailureDetectionStrategy {
+public interface FailureDetectionStrategy {
     /**
      * Determines if the failure threshold has been reached.
      *
