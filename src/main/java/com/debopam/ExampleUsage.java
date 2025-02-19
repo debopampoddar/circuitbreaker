@@ -14,6 +14,8 @@ import java.util.concurrent.Executors;
  * <p>
  * This example simulates two remote APIs (API-A and API-B), each with its own CircuitBreaker.
  * When a remote call fails or the breaker is open, the fallback value is returned.
+ *
+ * @author Debopam
  */
 public class ExampleUsage {
 

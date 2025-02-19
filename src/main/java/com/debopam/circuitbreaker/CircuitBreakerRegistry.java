@@ -9,6 +9,8 @@ import java.util.function.Supplier;
  * <p>
  * Each remote API call is identified by a unique key, and the registry
  * ensures that the state of each circuit breaker is maintained independently.
+ *
+ * @author Debopam
  */
 public class CircuitBreakerRegistry {
 
