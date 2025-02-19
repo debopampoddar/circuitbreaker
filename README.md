@@ -58,7 +58,7 @@ This command will compile the project and package it into a JAR file.
 After building the project, you can run the example usage which demonstrates the circuit breaker in action:
 
 ```sh
-mvn exec:java -Dexec.mainClass="com.debopam.circuitbreaker.ExampleUsage"
+mvn exec:java -Dexec.mainClass="com.debopam.ExampleUsage"
 ```
 
 You should see console output displaying results from simulated remote API calls along with the current state of the circuit breakers.

@@ -10,6 +10,8 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Unit tests for the CircuitBreaker utility.
+ *
+ * @author Debopam
  */
 public class CircuitBreakerTest {
 

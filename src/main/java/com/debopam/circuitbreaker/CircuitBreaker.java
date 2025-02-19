@@ -17,6 +17,7 @@ import java.util.function.Supplier;
  * (or when a call fails).
  *
  * @param <T> the type of result returned by the protected call
+ * @author Debopam
  */
 public class CircuitBreaker<T> {
 
