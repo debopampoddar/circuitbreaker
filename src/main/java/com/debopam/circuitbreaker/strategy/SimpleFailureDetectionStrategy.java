@@ -3,7 +3,7 @@ package com.debopam.circuitbreaker.strategy;
 /**
  * A simple failure detection strategy that trips after a fixed threshold.
  */
-non-sealed class SimpleFailureDetectionStrategy implements FailureDetectionStrategy {
+class SimpleFailureDetectionStrategy implements FailureDetectionStrategy {
     private final int threshold;
 
     public SimpleFailureDetectionStrategy(int threshold) {
